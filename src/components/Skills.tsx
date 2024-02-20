@@ -1,6 +1,7 @@
 import React from "react";
 import { getImage } from "../utils";
 import styles from "./Skills.module.css";
+import skills from "../skills.json";
 
 export const Skills = () => {
   return (
@@ -8,10 +9,15 @@ export const Skills = () => {
       <div className={styles.skels}>
         <h2 className={styles.h2s}>Skills</h2>
         <div className={styles.imageContainer}>
-          <img src={getImage("html5.png")} alt="HTML" />
-          <img src={getImage("css3.png")} alt="CSS" />
-          <img src={getImage("js.png")} alt="JavaScript" />
-          <img src={getImage("react.png")} alt="ReactJS" />
+          {skills.map((skill, id) => {
+            return (
+              <div key={id}>
+                <div>
+                  <img src={getImage(skill.imageSrc)} alt={skill.title} />
+                </div>
+              </div>
+            );
+          })}
         </div>
       </div>
     </section>

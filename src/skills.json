@@ -1,0 +1,22 @@
+[
+  {
+    "title": "HTML",
+    "imageSrc": "html5.png"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "css3.png"
+  },
+  {
+    "title": "JavaScript",
+    "imageSrc": "js.png"
+  },
+  {
+    "title": "TypeScript",
+    "imageSrc": "typescript.png"
+  },
+  {
+    "title": "React",
+    "imageSrc": "react.png"
+  }
+]

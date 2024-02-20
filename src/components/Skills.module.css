@@ -29,15 +29,14 @@
 
 .imageContainer {
   display: flex;
-  justify-content: space-around;
+  flex-direction: row;
+  justify-content: space-evenly;
   align-items: center;
   z-index: 2;
 }
 
 .imageContainer img {
-  width: 10%;
+  width: 75%;
   height: auto;
-  margin: 10px;
-  margin-bottom: 20px;
   z-index: 2;
 }
