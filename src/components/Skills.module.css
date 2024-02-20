@@ -1,0 +1,43 @@
+@import "../vars.css";
+
+@media screen and (max-width: 830px){
+
+  .skels {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  .h2s {
+    margin: 0 auto; 
+    text-align: center;
+  }
+  
+}
+
+.skels{
+  color: var(--color-text);
+  text-align: center;
+  margin-top: 72px;
+  z-index: 2;
+}
+.h2s{
+  font-size: 65px;
+  margin-bottom: 72px;
+}
+
+
+.imageContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 2;
+}
+
+.imageContainer img {
+  width: 10%;
+  height: auto;
+  margin: 10px;
+  margin-bottom: 20px;
+  z-index: 2;
+}
